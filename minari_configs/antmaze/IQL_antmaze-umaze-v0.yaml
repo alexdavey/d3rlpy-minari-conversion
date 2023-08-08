@@ -1,0 +1,15 @@
+dataset_name: antmaze-umaze-v0
+use_gpu: True
+algorithm: IQL
+is_minari_dataset: True
+seed: 0
+batch_size: 256
+#buffer_size: 10000000
+learning_rate: 0.0003
+#gamma: 0.99
+eval_frequency: 2000
+n_eval_episodes: 100
+total_steps: 500000
+max_episode_steps: 300
+ref_min_score: 0.0 # TODO: Check this!
+ref_max_score: 1.0
